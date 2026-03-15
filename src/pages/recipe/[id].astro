@@ -64,8 +64,9 @@ const { recipe } = Astro.props;
       <h3 class="ds-heading-xs mb-3">Ingredienser</h3>
       <ul id="ingredients" class="flex flex-col gap-1">
         {recipe.ingredients.map(ing => (
-          <li class="ds-paragraph-sm" data-base-amount={ing.amount}>
+          <li class="ds-paragraph-sm" data-base-amount={ing.amount} data-base-weight={ing.unit !== 'g' && ing.weight_g ? ing.weight_g : undefined}>
             <strong>{ing.amount} {ing.unit}</strong> {ing.name}
+            {ing.unit !== 'g' && ing.weight_g ? <span class="text-(--ds-color-neutral-text-subtle)" data-weight>({ing.weight_g}g)</span> : null}
           </li>
         ))}
       </ul>
@@ -108,13 +109,19 @@ const { recipe } = Astro.props;
 
     // Update ingredients
     ingredientItems.forEach(li => {
-      const base = Number((li as HTMLElement).dataset.baseAmount);
+      const el = li as HTMLElement;
+      const base = Number(el.dataset.baseAmount);
       const scaled = formatAmount(base * portions);
       const strong = li.querySelector('strong');
       if (strong) {
         const parts = strong.textContent!.split(' ');
         parts[0] = scaled;
         strong.textContent = parts.join(' ');
+      }
+      const weightSpan = li.querySelector('[data-weight]');
+      if (weightSpan && el.dataset.baseWeight) {
+        const scaledWeight = Math.round(Number(el.dataset.baseWeight) * portions);
+        weightSpan.textContent = `(${scaledWeight}g)`;
       }
     });
   }
