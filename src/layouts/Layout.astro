@@ -1,0 +1,29 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+}
+
+const { title = 'Oppskrifter' } = Astro.props;
+---
+
+<html lang="no" data-ds-color-mode="light">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body class="ds-color-neutral ds-typography min-h-screen bg-[var(--ds-color-neutral-background-default)]">
+    <header class="bg-[var(--ds-color-neutral-surface-default)] border-b border-[var(--ds-color-neutral-border-subtle)] py-4 px-6">
+      <div class="max-w-6xl mx-auto">
+        <h1 class="ds-heading-lg">Oppskrifter</h1>
+      </div>
+    </header>
+    <main class="max-w-6xl mx-auto px-6 py-8">
+      <slot />
+    </main>
+  </body>
+</html>

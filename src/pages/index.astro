@@ -1,0 +1,155 @@
+---
+import Layout from '../layouts/Layout.astro';
+import recipes from '../../recipes.json';
+
+const allTags = [...new Set(recipes.recipes.flatMap(r => r.tags))].sort();
+---
+
+<Layout>
+  <div class="flex flex-col gap-6">
+    <!-- Search and filters -->
+    <div class="flex flex-col gap-4">
+      <div class="ds-search" data-size="md">
+        <input
+          type="search"
+          id="search"
+          placeholder="Søk etter oppskrifter..."
+          class="ds-input"
+          data-size="md"
+        />
+      </div>
+
+      <div class="flex flex-wrap gap-2" id="tag-filters">
+        {allTags.map(tag => (
+          <label class="ds-chip" data-size="sm">
+            <input type="checkbox" data-tag={tag} />
+            {tag}
+          </label>
+        ))}
+      </div>
+    </div>
+
+    <p class="ds-paragraph-sm text-(--ds-color-neutral-text-subtle)" id="recipe-count">
+      {recipes.recipes.length} oppskrifter
+    </p>
+
+    <!-- Recipe grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="recipe-grid">
+      {recipes.recipes.map(recipe => (
+        <a
+          href={`/recipe/${recipe.id}`}
+          class="ds-card ds-card--neutral no-underline"
+          data-tags={JSON.stringify(recipe.tags)}
+          data-title={recipe.title.toLowerCase()}
+          data-description={recipe.description.toLowerCase()}
+        >
+          <div class="ds-card__content p-5 flex flex-col gap-3">
+            <h2 class="ds-heading-sm">{recipe.title}</h2>
+            <p class="ds-paragraph-sm text-(--ds-color-neutral-text-subtle) line-clamp-2">{recipe.description}</p>
+            <div class="flex gap-4 text-sm text-(--ds-color-neutral-text-subtle)">
+              <span class="flex items-center gap-1" title="Kalorier">
+                <svg class="size-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M14.3199 2.32152C14.6478 2.47605 14.8182 2.84296 14.7248 3.19319L13.0869 9.33552L17.5697 9.75318C17.837 9.77808 18.0706 9.94395 18.1822 10.1881C18.2938 10.4322 18.2665 10.7174 18.1104 10.9359L10.6104 21.4359C10.3998 21.7308 10.0083 21.8329 9.68039 21.6784C9.35251 21.5238 9.18206 21.1569 9.27546 20.8067L10.9134 14.6644L6.43043 14.2467C6.16314 14.2218 5.92953 14.0559 5.81791 13.8118C5.70629 13.5676 5.73367 13.2825 5.88971 13.064L13.3898 2.56401C13.6005 2.26906 13.992 2.16699 14.3199 2.32152Z"/></svg>
+                {recipe.calories} kcal
+              </span>
+              <span class="flex items-center gap-1" title="Protein">
+                <svg class="size-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 3.25C10.4142 3.25 10.75 3.58579 10.75 4V9C10.75 9.69036 11.3096 10.25 12 10.25C12.6904 10.25 13.25 9.69036 13.25 9V4C13.25 3.58579 13.5858 3.25 14 3.25C14.4142 3.25 14.75 3.58579 14.75 4V9C14.75 10.2588 13.9043 11.32 12.75 11.6465V20C12.75 20.4142 12.4142 20.75 12 20.75C11.5858 20.75 11.25 20.4142 11.25 20V11.6465C10.0957 11.32 9.25 10.2588 9.25 9V4C9.25 3.58579 9.58579 3.25 10 3.25ZM12.75 4C12.75 3.58579 12.4142 3.25 12 3.25C11.5858 3.25 11.25 3.58579 11.25 4V7.5C11.25 7.91421 11.5858 8.25 12 8.25C12.4142 8.25 12.75 7.91421 12.75 7.5V4Z"/></svg>
+                {recipe.protein_g}g protein
+              </span>
+              <span class="flex items-center gap-1" title="Tilberedningstid">
+                <svg class="size-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.75 12C3.75 7.44365 7.44365 3.75 12 3.75C16.5563 3.75 20.25 7.44365 20.25 12C20.25 16.5563 16.5563 20.25 12 20.25C7.44365 20.25 3.75 16.5563 3.75 12ZM12 2.25C6.61522 2.25 2.25 6.61522 2.25 12C2.25 17.3848 6.61522 21.75 12 21.75C17.3848 21.75 21.75 17.3848 21.75 12C21.75 6.61522 17.3848 2.25 12 2.25ZM12.75 6C12.75 5.58579 12.4142 5.25 12 5.25C11.5858 5.25 11.25 5.58579 11.25 6V12C11.25 12.1989 11.329 12.3897 11.4697 12.5303L13.9697 15.0303C14.2626 15.3232 14.7374 15.3232 15.0303 15.0303C15.3232 14.7374 15.3232 14.2626 15.0303 13.9697L12.75 11.6893V6Z"/></svg>
+                {recipe.cook_time_min} min
+              </span>
+            </div>
+            <div class="flex flex-wrap gap-1 mt-1">
+              {recipe.tags.map(tag => (
+                <span class="ds-tag" data-size="xs">{tag}</span>
+              ))}
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+    <p id="no-results" class="ds-paragraph-md text-center text-(--ds-color-neutral-text-subtle) hidden">
+      Ingen oppskrifter funnet.
+    </p>
+  </div>
+</Layout>
+
+<script>
+  const searchInput = document.getElementById('search') as HTMLInputElement;
+  const tagFilters = document.getElementById('tag-filters')!;
+  const recipeGrid = document.getElementById('recipe-grid')!;
+  const noResults = document.getElementById('no-results')!;
+  const recipeCount = document.getElementById('recipe-count')!;
+  const totalCount = recipeGrid.querySelectorAll('a[data-tags]').length;
+
+  const activeTags = new Set<string>();
+
+  function readURL() {
+    const params = new URLSearchParams(window.location.search);
+    const q = params.get('q') ?? '';
+    const tags = params.get('tags')?.split(',').filter(Boolean) ?? [];
+
+    searchInput.value = q;
+    activeTags.clear();
+    tagFilters.querySelectorAll<HTMLInputElement>('input[data-tag]').forEach(input => {
+      const checked = tags.includes(input.dataset.tag!);
+      input.checked = checked;
+      if (checked) activeTags.add(input.dataset.tag!);
+    });
+  }
+
+  function writeURL() {
+    const params = new URLSearchParams();
+    const q = searchInput.value.trim();
+    if (q) params.set('q', q);
+    if (activeTags.size > 0) params.set('tags', [...activeTags].join(','));
+
+    const url = params.size > 0 ? `?${params}` : window.location.pathname;
+    history.replaceState(null, '', url);
+  }
+
+  function filterRecipes() {
+    writeURL();
+
+    const query = searchInput.value.toLowerCase().trim();
+    const cards = recipeGrid.querySelectorAll<HTMLAnchorElement>('a[data-tags]');
+    let visibleCount = 0;
+
+    cards.forEach(card => {
+      const title = card.dataset.title!;
+      const description = card.dataset.description!;
+      const tags: string[] = JSON.parse(card.dataset.tags!);
+
+      const matchesSearch = !query || title.includes(query) || description.includes(query);
+      const matchesTags = activeTags.size === 0 || [...activeTags].every(t => tags.includes(t));
+
+      const visible = matchesSearch && matchesTags;
+      card.style.display = visible ? '' : 'none';
+      if (visible) visibleCount++;
+    });
+
+    noResults.classList.toggle('hidden', visibleCount > 0);
+    recipeCount.textContent = visibleCount === totalCount
+      ? `${totalCount} oppskrifter`
+      : `${visibleCount} av ${totalCount} oppskrifter`;
+  }
+
+  searchInput.addEventListener('input', filterRecipes);
+
+  tagFilters.addEventListener('change', (e) => {
+    const input = e.target as HTMLInputElement;
+    if (!input.dataset.tag) return;
+
+    if (input.checked) {
+      activeTags.add(input.dataset.tag);
+    } else {
+      activeTags.delete(input.dataset.tag);
+    }
+    filterRecipes();
+  });
+
+  // Initialize from URL params
+  readURL();
+  filterRecipes();
+</script>

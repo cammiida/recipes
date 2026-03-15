@@ -1,0 +1,8 @@
+@layer base, theme, designsystemet, utilities;
+
+@import '@digdir/designsystemet-css' layer(designsystemet);
+@import '@digdir/designsystemet-css/theme' layer(designsystemet);
+
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/preflight.css' layer(base);
+@import 'tailwindcss/utilities.css' layer(utilities);
