@@ -87,7 +87,8 @@ const { recipe } = Astro.props;
   const portionDisplay = document.getElementById('portion-display')!;
   const macrosEl = document.getElementById('macros')!;
   const ingredientItems = document.querySelectorAll('#ingredients li');
-  let portions = 1;
+  const initialPortions = Number(new URLSearchParams(window.location.search).get('portions')) || 1;
+  let portions = initialPortions;
 
   function formatAmount(amount: number): string {
     if (amount === Math.floor(amount)) return amount.toString();
@@ -97,12 +98,13 @@ const { recipe } = Astro.props;
   function update() {
     portionDisplay.textContent = String(portions);
 
-    // Update macros
-    for (const key of ['calories', 'protein', 'carbs', 'fat'] as const) {
-      const base = Number(macrosEl.dataset[key]);
-      const el = macrosEl.querySelector(`[data-macro="${key}"]`);
-      if (el) el.textContent = String(base * portions);
+    const url = new URL(window.location.href);
+    if (portions > 1) {
+      url.searchParams.set('portions', String(portions));
+    } else {
+      url.searchParams.delete('portions');
     }
+    history.replaceState(null, '', url);
 
     // Update ingredients
     ingredientItems.forEach(li => {
@@ -116,6 +118,8 @@ const { recipe } = Astro.props;
       }
     });
   }
+
+  if (portions > 1) update();
 
   document.getElementById('portion-increase')!.addEventListener('click', () => {
     portions++;
