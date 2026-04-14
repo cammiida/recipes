@@ -10,7 +10,7 @@ Add admin authentication and a recipe management panel to the recipes app. The p
 Browser ──(cookies)──> CloudFront ──> Lambda Function URL ──> Astro SSR ──> Neon PostgreSQL
 ```
 
-- **Public site**: Static (Astro hybrid mode), prerendered at build time from the database. Served via CloudFront.
+- **Public site**: Static (Astro static output with per-page SSR opt-in), prerendered at build time from the database. Served via CloudFront.
 - **Admin panel**: Astro SSR routes under `/admin/*`, behind better-auth session validation.
 - **Auth**: better-auth v1.5.6, email/password, HTTP-only cookie sessions. No separate API — everything runs inside Astro.
 - **Data**: Neon PostgreSQL via Prisma. Recipes and auth tables in the same database.
