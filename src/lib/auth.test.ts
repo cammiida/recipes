@@ -4,6 +4,7 @@ import { tmpdir } from "node:os";
 import { describe, test, expect, afterAll } from "vitest";
 import { auth } from "./auth";
 import { prisma } from "./prisma";
+import type { Recipe } from "@prisma/client";
 
 const TEST_USER = {
   email: `test-${Date.now()}@example.com`,
@@ -97,7 +98,7 @@ describe("seed script", () => {
     writeFileSync(seedFile, JSON.stringify([SEED_USER]));
 
     const { seed } = await import("../../prisma/seed");
-    await seed(seedFile);
+    await seed({ usersPath: seedFile });
 
     const user = await prisma.user.findUnique({
       where: { email: SEED_USER.email },
@@ -110,5 +111,72 @@ describe("seed script", () => {
       asResponse: true,
     });
     expect(signInResponse.status).toBe(200);
+  });
+});
+
+describe("recipe seed", () => {
+  const RECIPE_TITLE = `test-recipe-${Date.now()}`;
+  const recipesFile = join(tmpdir(), `recipes-${Date.now()}.json`);
+
+  const testRecipeJson = {
+    meta: { source: "test" },
+    recipes: [
+      {
+        id: 999,
+        title: RECIPE_TITLE,
+        description: "A test recipe",
+        calories: 500,
+        protein_g: 30,
+        carbs_g: 40,
+        fat_g: 20,
+        ingredients: [
+          { name: "Test Ingredient", amount: 100, unit: "g" },
+          { name: "Other Ingredient", amount: 2, unit: "dl", weight_g: 50 },
+        ],
+        steps: ["Step one", "Step two"],
+        tags: ["test", "tdd"],
+        category: "middag",
+        cook_time_min: 15,
+      },
+    ],
+  };
+
+  afterAll(async () => {
+    await prisma.recipe.deleteMany({ where: { title: RECIPE_TITLE } });
+    try { unlinkSync(recipesFile); } catch {}
+  });
+
+  test("inserts recipes with correct field mapping", async () => {
+    writeFileSync(recipesFile, JSON.stringify(testRecipeJson));
+
+    const { seed } = await import("../../prisma/seed");
+    await seed({ recipesPath: recipesFile, skipUsers: true });
+
+    const recipe = await prisma.recipe.findFirst({
+      where: { title: RECIPE_TITLE },
+    });
+
+    expect(recipe).not.toBeNull();
+    const r = recipe as Recipe;
+    expect(r.kcal).toBe(500);
+    expect(r.proteinG).toBe(30);
+    expect(r.carbsG).toBe(40);
+    expect(r.fatG).toBe(20);
+    expect(r.cookTimeMin).toBe(15);
+    expect(r.category).toBe("middag");
+    expect(r.tags).toEqual(["test", "tdd"]);
+    expect(r.ingredients).toEqual(testRecipeJson.recipes[0].ingredients);
+    expect(r.steps).toEqual(["Step one", "Step two"]);
+  });
+
+  test("is idempotent — running twice does not create duplicates", async () => {
+    const { seed } = await import("../../prisma/seed");
+    await seed({ recipesPath: recipesFile, skipUsers: true });
+
+    const recipes = await prisma.recipe.findMany({
+      where: { title: RECIPE_TITLE },
+    });
+
+    expect(recipes).toHaveLength(1);
   });
 });
