@@ -1,0 +1,31 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { auth } from "../../lib/auth";
+import LogoutButton from "../../components/LogoutButton";
+
+export const prerender = false;
+
+let session;
+try {
+  session = await auth.api.getSession({
+    headers: Astro.request.headers,
+  });
+} catch {
+  // getSession throws if no valid session exists
+}
+
+if (!session) {
+  return Astro.redirect("/login");
+}
+
+const userName = session.user.name ?? session.user.email;
+---
+
+<Layout title="Admin">
+  <div class="flex flex-col gap-6">
+    <div class="flex justify-between items-center">
+      <h2 class="ds-heading-md">Welcome, {userName}</h2>
+      <LogoutButton client:load />
+    </div>
+  </div>
+</Layout>

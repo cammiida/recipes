@@ -17,6 +17,9 @@ pnpm-debug.log*
 .env
 .env.production
 
+# local seed data
+prisma/seed-users.json
+
 # macOS-specific files
 .DS_Store
 

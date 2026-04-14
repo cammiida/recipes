@@ -1,0 +1,15 @@
+---
+import Layout from "../layouts/Layout.astro";
+import LoginForm from "../components/LoginForm";
+
+export const prerender = false;
+---
+
+<Layout title="Logg inn">
+  <div class="flex justify-center pt-12">
+    <div class="flex flex-col items-center gap-6">
+      <h2 class="ds-heading-md">Logg inn</h2>
+      <LoginForm client:load />
+    </div>
+  </div>
+</Layout>

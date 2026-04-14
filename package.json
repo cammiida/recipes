@@ -10,29 +10,38 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "verify": "astro check && tsc --noEmit -p tsconfig.json"
+    "verify": "astro check && tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "db:seed": "node --env-file=.env --import=tsx prisma/seed.ts"
   },
   "dependencies": {
     "@astrojs/node": "^10.0.4",
     "@astrojs/react": "^5.0.3",
     "@digdir/designsystemet-css": "^1.13.0",
     "@navikt/aksel-icons": "^8.7.0",
+    "@prisma/adapter-pg": "^7.7.0",
     "@prisma/client": "^7.7.0",
     "@tailwindcss/vite": "^4.2.1",
     "astro": "^6.1.6",
+    "better-auth": "^1.6.3",
+    "pg": "^8.20.0",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "tailwindcss": "^4.2.1"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.8",
+    "@prisma/client-runtime-utils": "^7.7.0",
     "@types/node": "^25.6.0",
+    "@types/pg": "^8.20.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "dotenv": "^17.4.2",
     "lefthook": "^2.1.5",
     "prisma": "^7.7.0",
-    "typescript": "^5.9.3"
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.4"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
