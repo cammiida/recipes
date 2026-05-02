@@ -24,6 +24,6 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: eu-north-1
 
-      - run: aws s3 sync dist/ s3://recipes-cmd-fyi --delete
+      - run: aws s3 sync dist/client/ s3://recipes-cmd-fyi --delete
 
       - run: aws cloudfront create-invalidation --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
