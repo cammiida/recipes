@@ -8,6 +8,11 @@ import react from '@astrojs/react';
 // https://astro.build/config
 export default defineConfig({
   adapter: node({ mode: 'standalone' }),
+  i18n: {
+    locales: ['nb', 'en'],
+    defaultLocale: 'nb',
+    routing: { prefixDefaultLocale: true },
+  },
   integrations: [react()],
   vite: {
     plugins: [tailwindcss()]

@@ -1,0 +1,12 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import RecipeList from '../../components/RecipeList.astro';
+import { getAllRecipes } from '../../data/recipes';
+
+const locale = 'en';
+const recipes = getAllRecipes(locale);
+---
+
+<Layout locale={locale}>
+  <RecipeList locale={locale} recipes={recipes} />
+</Layout>

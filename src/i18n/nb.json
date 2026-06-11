@@ -1,0 +1,22 @@
+{
+  "siteTitle": "Oppskrifter",
+  "searchPlaceholder": "Søk etter oppskrifter...",
+  "countRecipes": "oppskrifter",
+  "countOf": "av",
+  "noResults": "Ingen oppskrifter funnet.",
+  "macroCalories": "Kalorier",
+  "macroProtein": "Protein",
+  "macroCarbs": "Karbohydrater",
+  "macroFat": "Fett",
+  "macroCookTime": "Tilberedningstid",
+  "unitKcal": "kcal",
+  "labelProtein": "g protein",
+  "labelCarbs": "g karbo",
+  "labelFat": "g fett",
+  "unitMin": "min",
+  "cookTimeApprox": "ca.",
+  "back": "Tilbake",
+  "portions": "Porsjoner:",
+  "ingredientsHeading": "Ingredienser",
+  "stepsHeading": "Fremgangsmåte"
+}
