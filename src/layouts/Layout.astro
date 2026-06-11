@@ -1,25 +1,51 @@
 ---
 import '../styles/global.css';
+import { getRelativeLocaleUrl } from 'astro:i18n';
+import { t, type Locale } from '../i18n';
 
 interface Props {
   title?: string;
+  locale?: Locale;
 }
 
-const { title = 'Oppskrifter' } = Astro.props;
+const { title, locale = 'nb' } = Astro.props;
+const pageTitle = title ?? t(locale, 'siteTitle');
+
+// Strip the leading locale prefix so we can link to the same page in the other locale.
+const basePath = Astro.url.pathname.replace(/^\/(nb|en)(?=\/|$)/, '') || '/';
+const switcher: { code: Locale; label: string; href: string }[] = [
+  { code: 'nb', label: 'NO', href: getRelativeLocaleUrl('nb', basePath) },
+  { code: 'en', label: 'EN', href: getRelativeLocaleUrl('en', basePath) },
+];
 ---
 
-<html lang="no" data-ds-color-mode="light">
+<html lang={locale} data-ds-color-mode="light">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
+    <title>{pageTitle}</title>
   </head>
   <body class="ds-color-neutral ds-typography min-h-screen bg-[var(--ds-color-neutral-background-default)]">
     <header class="bg-[var(--ds-color-neutral-surface-default)] border-b border-[var(--ds-color-neutral-border-subtle)] py-4 px-6">
-      <div class="max-w-6xl mx-auto">
-        <h1 class="ds-heading-lg">Oppskrifter</h1>
+      <div class="max-w-6xl mx-auto flex items-center justify-between gap-4">
+        <h1 class="ds-heading-lg">{t(locale, 'siteTitle')}</h1>
+        <nav class="flex gap-2 text-sm" aria-label="Språk / Language">
+          {switcher.map(({ code, label, href }) => (
+            <a
+              href={href}
+              hreflang={code}
+              aria-current={code === locale ? 'true' : undefined}
+              class:list={[
+                'no-underline px-2 py-1 rounded',
+                code === locale
+                  ? 'font-semibold text-(--ds-color-neutral-text-default)'
+                  : 'text-(--ds-color-neutral-text-subtle)',
+              ]}
+            >{label}</a>
+          ))}
+        </nav>
       </div>
     </header>
     <main class="max-w-6xl mx-auto px-6 py-8">

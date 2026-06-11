@@ -1,0 +1,22 @@
+{
+  "siteTitle": "Recipes",
+  "searchPlaceholder": "Search recipes...",
+  "countRecipes": "recipes",
+  "countOf": "of",
+  "noResults": "No recipes found.",
+  "macroCalories": "Calories",
+  "macroProtein": "Protein",
+  "macroCarbs": "Carbohydrates",
+  "macroFat": "Fat",
+  "macroCookTime": "Cooking time",
+  "unitKcal": "kcal",
+  "labelProtein": "g protein",
+  "labelCarbs": "g carbs",
+  "labelFat": "g fat",
+  "unitMin": "min",
+  "cookTimeApprox": "approx.",
+  "back": "Back",
+  "portions": "Servings:",
+  "ingredientsHeading": "Ingredients",
+  "stepsHeading": "Method"
+}

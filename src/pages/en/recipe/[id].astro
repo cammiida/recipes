@@ -1,0 +1,18 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import RecipeDetail from '../../../components/RecipeDetail.astro';
+import { getAllRecipes } from '../../../data/recipes';
+
+export function getStaticPaths() {
+  return getAllRecipes('en').map((recipe) => ({
+    params: { id: String(recipe.id) },
+    props: { recipe },
+  }));
+}
+
+const { recipe } = Astro.props;
+---
+
+<Layout locale="en" title={recipe.title}>
+  <RecipeDetail locale="en" recipe={recipe} />
+</Layout>

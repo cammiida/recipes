@@ -107,7 +107,7 @@ interface SeedOptions {
 export async function seed(options: SeedOptions = {}) {
   const {
     usersPath = resolve(import.meta.dirname!, "seed-users.json"),
-    recipesPath = resolve(import.meta.dirname!, "../recipes.json"),
+    recipesPath = resolve(import.meta.dirname!, "../src/data/recipes.nb.json"),
     skipUsers = false,
     skipRecipes = false,
   } = options;

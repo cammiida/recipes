@@ -1,0 +1,1734 @@
+{
+  "1": {
+    "title": "Creamy pasta with chicken",
+    "description": "Creamy whole-grain pasta with chicken fillet, mushroom and carrot in light cooking cream with spices.",
+    "ingredients": [
+      {
+        "name": "Chicken fillet",
+        "unit": "g"
+      },
+      {
+        "name": "Pasta, whole grain",
+        "unit": "dl"
+      },
+      {
+        "name": "Light cooking cream",
+        "unit": "dl"
+      },
+      {
+        "name": "Mushroom, raw",
+        "unit": "pcs"
+      },
+      {
+        "name": "Carrot",
+        "unit": "pcs"
+      }
+    ],
+    "steps": [
+      "Cook the pasta according to the package instructions.",
+      "While the pasta cooks, chop up your vegetables of choice.",
+      "Fry the chicken fillet in the pan and season with your spices of choice.",
+      "Add all the vegetables and let them fry together for a bit.",
+      "Add the cooking cream, lime juice, thyme, oregano, salt and chili, and let it simmer together.",
+      "Serve the creamy pasta with chicken."
+    ]
+  },
+  "2": {
+    "title": "Stuffed bell peppers",
+    "description": "Bell peppers stuffed with ground beef, sweet potato and taco seasoning, gratinated with cheese and served with fresh vegetables.",
+    "ingredients": [
+      {
+        "name": "Sweet potato",
+        "unit": "pcs"
+      },
+      {
+        "name": "Ground beef",
+        "unit": "g"
+      },
+      {
+        "name": "Garlic",
+        "unit": "clove"
+      },
+      {
+        "name": "Bell pepper, red",
+        "unit": "pcs"
+      },
+      {
+        "name": "Taco seasoning mix",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Zucchini",
+        "unit": "dl"
+      },
+      {
+        "name": "Lettuce",
+        "unit": "leaves"
+      },
+      {
+        "name": "Taco sauce",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Low-fat quark",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cucumber",
+        "unit": "dl"
+      },
+      {
+        "name": "White cheese, light 16% fat",
+        "unit": "slices"
+      }
+    ],
+    "steps": [
+      "Cut the sweet potato into small cubes and bake in the oven at 200 degrees for about 15 minutes.",
+      "Fry the ground beef together with the chopped garlic and zucchini in a frying pan - add the taco seasoning.",
+      "When the sweet potato is done, mix it together with the meat and season to taste (e.g. salt, pepper).",
+      "Spoon the meat into the bell peppers, sprinkle cheese on top and gratinate in the oven for 15-20 minutes. The bell peppers can be roasted on their own in the oven for a bit before being filled. That gives the best result.",
+      "Serve with chopped cucumber, lettuce, taco sauce and low-fat quark."
+    ]
+  },
+  "3": {
+    "title": "One-pot lasagna",
+    "description": "A simpler take on lasagna made in a pot with ground beef, lasagna sheets, cherry tomato and cream cheese.",
+    "ingredients": [
+      {
+        "name": "Ground beef",
+        "unit": "g"
+      },
+      {
+        "name": "Lasagna sheets",
+        "unit": "pcs"
+      },
+      {
+        "name": "Tomato paste",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Philadelphia light cream cheese",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Maggi chicken stock",
+        "unit": "cube"
+      },
+      {
+        "name": "Shallot",
+        "unit": "dl"
+      },
+      {
+        "name": "Garlic",
+        "unit": "clove"
+      },
+      {
+        "name": "Water, drinking water",
+        "unit": "dl"
+      },
+      {
+        "name": "Tomato, chopped, carton",
+        "unit": "dl"
+      },
+      {
+        "name": "Cherry tomato",
+        "unit": "handful"
+      },
+      {
+        "name": "White cheese",
+        "unit": "slices"
+      }
+    ],
+    "steps": [
+      "Fry the ground beef, shallot and garlic in a small pot. Season with grill seasoning, oregano, a small pinch of cayenne pepper (can be omitted) and add the tomato paste. Let it simmer for a few minutes before you add water, stock, passata and cherry tomato. Dot the Philadelphia in small dollops, break the lasagna sheets into 3 pieces and spread them into the pot. Let it cook with the lid on for about 15 minutes and sprinkle grated cheese on top. Leave it covered for 5 minutes and serve with a salad."
+    ]
+  },
+  "4": {
+    "title": "Chop suey with chicken, cashews and cauliflower rice",
+    "description": "Asian-inspired stir-fry with chicken, vegetables, cashews and cauliflower rice.",
+    "ingredients": [
+      {
+        "name": "Chicken fillet",
+        "unit": "g"
+      },
+      {
+        "name": "Cauliflower",
+        "unit": "florets"
+      },
+      {
+        "name": "Carrot",
+        "unit": "pcs"
+      },
+      {
+        "name": "Broccoli",
+        "unit": "florets"
+      },
+      {
+        "name": "Mushroom, raw",
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "unit": "pcs"
+      },
+      {
+        "name": "Chop Suey stir-fry sauce, Blue Dragon",
+        "unit": "bag"
+      },
+      {
+        "name": "Cashews",
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "unit": "clove"
+      },
+      {
+        "name": "Chili, red",
+        "unit": "pcs"
+      }
+    ],
+    "steps": [
+      "Fry and season the chicken with e.g. salt and pepper.",
+      "Grate the cauliflower on a grater or use ready-made cauliflower rice.",
+      "Chop the vegetables and fry them together with the cauliflower rice until tender. Add pressed garlic and chili.",
+      "Mix the chicken and vegetables together and add the stir-fry sauce. Let it simmer for a few minutes.",
+      "Top with cashews."
+    ]
+  },
+  "5": {
+    "title": "Naked burrito",
+    "description": "Burrito bowl with chicken, kidney beans, nachos, cherry tomato and guacamole.",
+    "ingredients": [
+      {
+        "name": "Chicken fillet",
+        "unit": "g"
+      },
+      {
+        "name": "Kidney beans, red, canned",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Fajita spice mix original, Santa Maria",
+        "unit": "bag"
+      },
+      {
+        "name": "White cheese, light 16% fat",
+        "unit": "slices"
+      },
+      {
+        "name": "Tortilla chips, nacho chips, Maarud Tortilla Cheese",
+        "unit": "g"
+      },
+      {
+        "name": "Q Drømmelett 5%",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Avocado",
+        "unit": "dl"
+      },
+      {
+        "name": "Bell pepper",
+        "unit": "pcs"
+      },
+      {
+        "name": "Red onion",
+        "unit": "pcs"
+      },
+      {
+        "name": "Cherry tomato",
+        "unit": "pcs"
+      }
+    ],
+    "steps": [
+      "Cut the chicken into pieces and fry through in the pan.",
+      "Add the bell pepper, red onion, beans, cherry tomatoes and fajita seasoning.",
+      "Fry together for about 5 minutes.",
+      "Sprinkle cheese on top and put the lid on until the cheese has melted.",
+      "Enjoy with tortilla chips on the side.",
+      "Serve with a little sour cream, and feel free to make guacamole from the avocado."
+    ]
+  },
+  "6": {
+    "title": "Chicken and pasta with cream cheese",
+    "description": "Simple pasta with chicken, bell pepper, onion and Philadelphia cream cheese.",
+    "ingredients": [
+      {
+        "name": "Chicken fillet",
+        "unit": "g"
+      },
+      {
+        "name": "Pasta, whole grain",
+        "unit": "dl"
+      },
+      {
+        "name": "Tomato",
+        "unit": "pcs"
+      },
+      {
+        "name": "Bell pepper, red",
+        "unit": "pcs"
+      },
+      {
+        "name": "Philadelphia Light garlic and herbs",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Onion",
+        "unit": "pcs"
+      }
+    ],
+    "steps": [
+      "Cook the pasta according to the package instructions.",
+      "Chop the bell pepper and onion, and fry in the pan until soft. Set the vegetables aside.",
+      "Cut the chicken into pieces and fry in the pan, then add the vegetables and let everything fry together for a bit, and season to taste with your spices of choice.",
+      "Mix together the pasta, chicken, vegetables and Philadelphia cheese.",
+      "Serve with a fresh salad and tomato."
+    ]
+  },
+  "7": {
+    "title": "Easy cod bake",
+    "description": "Oven-baked cod with broccoli, carrot, pesto and crème fraîche, served with rice.",
+    "ingredients": [
+      {
+        "name": "Cod",
+        "unit": "g"
+      },
+      {
+        "name": "Broccoli",
+        "unit": "florets"
+      },
+      {
+        "name": "Carrot",
+        "unit": "pcs"
+      },
+      {
+        "name": "Pesto rosso, Barilla",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Rice",
+        "unit": "dl"
+      },
+      {
+        "name": "Light Crème Fraîche 10%",
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Cut the cod, broccoli and carrot (or other vegetables) into pieces. Put the pieces in an ovenproof dish and season with salt and pepper.",
+      "Mix together the crème fraîche and red pesto, and pour over the cod and vegetables.",
+      "Place in the oven at 200 degrees for 20 minutes.",
+      "Cook the rice according to the package instructions.",
+      "Let the cod bake cool a little and serve with rice!"
+    ]
+  },
+  "8": {
+    "title": "Venison Stew",
+    "description": "Roe deer stew with potatoes, crème fraîche, lingonberry jam and Brussels sprouts.",
+    "ingredients": [
+      {
+        "name": "Roe deer, meat",
+        "unit": "g"
+      },
+      {
+        "name": "Medium potato",
+        "unit": "pcs"
+      },
+      {
+        "name": "Light Crème Fraîche 10%",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Lingonberry jam",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Brussels sprouts",
+        "unit": "pcs"
+      },
+      {
+        "name": "Carrot",
+        "unit": "medium"
+      },
+      {
+        "name": "Onion",
+        "unit": "pcs"
+      },
+      {
+        "name": "Mushroom, raw",
+        "unit": "pcs"
+      }
+    ],
+    "steps": [
+      "Bring the potatoes to a boil. Sauté the onion and mushrooms in a pan. Add the venison and diced carrot. Pour in a little water and stock and let it simmer for 15 minutes until the carrots are tender. Stir in the crème fraîche and season to taste. Serve with lingonberry jam and Brussels sprouts."
+    ]
+  },
+  "9": {
+    "title": "Tuna Pasta Salad",
+    "description": "Fresh pasta salad with tuna, egg, spinach, sugar snap peas and homemade dressing.",
+    "ingredients": [
+      {
+        "name": "Tuna in water",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Tuna, thai chili, King Oscar",
+        "unit": "can"
+      },
+      {
+        "name": "Spring onion",
+        "unit": "pcs"
+      },
+      {
+        "name": "Spinach, raw",
+        "unit": "bag"
+      },
+      {
+        "name": "Sugar snap peas",
+        "unit": "pcs"
+      },
+      {
+        "name": "Carrot",
+        "unit": "medium"
+      },
+      {
+        "name": "Bell pepper",
+        "unit": "pcs"
+      },
+      {
+        "name": "Corn",
+        "unit": "can"
+      },
+      {
+        "name": "Egg",
+        "unit": "pcs"
+      },
+      {
+        "name": "Sauce/dressing",
+        "unit": "serving"
+      },
+      {
+        "name": "Pasta",
+        "unit": "dl"
+      }
+    ],
+    "steps": [
+      "Use a bag of baby spinach, or another leafy salad you prefer.",
+      "Boil an egg (hard-boiled to your liking) and cook the pasta (macaroni works well). Chop the vegetables and mix the different ingredients together (including the tuna). Then stir in the macaroni and top the salad with a chopped hard-boiled egg. Add plenty of fresh herbs if you like for extra flavor!",
+      "Feel free to make your own salad dressing from: 2 dl olive oil, 1 dl lemon juice, 2 tsp Dijon mustard, 2 tsp honey. Use 1 tbsp of the finished sauce for the salad. If you choose to use another ready-made sauce/dressing, one serving comes to about 30 calories."
+    ]
+  },
+  "10": {
+    "title": "Tom Kha Gai",
+    "description": "Thai coconut milk soup with chicken, mushrooms, ginger and curry paste.",
+    "ingredients": [
+      {
+        "name": "Chicken fillet",
+        "unit": "g"
+      },
+      {
+        "name": "Rice",
+        "unit": "dl"
+      },
+      {
+        "name": "Shallot",
+        "unit": "pcs"
+      },
+      {
+        "name": "Mushroom, raw",
+        "unit": "pcs"
+      },
+      {
+        "name": "Ginger root",
+        "unit": "small piece"
+      },
+      {
+        "name": "Curry paste",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Coconut milk, light",
+        "unit": "dl"
+      },
+      {
+        "name": "Maggi chicken stock",
+        "unit": "cube"
+      }
+    ],
+    "steps": [
+      "Thinly slice the shallot and ginger and sauté in a pot.",
+      "Then stir in the curry paste and let it cook briefly before stirring in the coconut milk and stock - let it simmer for about 10 minutes.",
+      "Add the chopped chicken - let it cook for a few minutes before finally adding the mushrooms and sugar snap peas.",
+      "Season with salt and squeeze in the juice of a lime.",
+      "Top with fresh basil leaves and serve with rice."
+    ]
+  },
+  "11": {
+    "title": "Shrimp Tacos with Chili Mayo and Mango",
+    "description": "Tortillas with shrimp, mango, chili mayo and fresh vegetables.",
+    "ingredients": [
+      {
+        "name": "Shrimp",
+        "unit": "g"
+      },
+      {
+        "name": "Tortilla, corn wrap",
+        "unit": "pcs"
+      },
+      {
+        "name": "Mango",
+        "unit": "dl"
+      },
+      {
+        "name": "Low-fat quark",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Chili sauce",
+        "unit": "tsp"
+      },
+      {
+        "name": "Cilantro",
+        "unit": "dl"
+      },
+      {
+        "name": "Lime",
+        "unit": "pcs"
+      },
+      {
+        "name": "Red onion",
+        "unit": "pcs"
+      },
+      {
+        "name": "Spring onion",
+        "unit": "dl"
+      },
+      {
+        "name": "Leaf lettuce",
+        "unit": "dl"
+      },
+      {
+        "name": "Chili, red",
+        "unit": "tsp"
+      },
+      {
+        "name": "Garlic",
+        "unit": "tsp"
+      },
+      {
+        "name": "Mayonnaise, light, 50% fat",
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Fry the shrimp for a few minutes over high heat together with the chili, garlic and your choice of seasoning.",
+      "Mix together the quark, mayonnaise and chili sauce.",
+      "Chop up your choice of lettuce, spring onion and mango.",
+      "Warm small tortillas. Serve with shrimp, lettuce, spring onion, mango, cilantro, lime, chili mayo and pickled red onion.",
+      "If you want to pickle red onion: Use 1 part vinegar, two parts sugar and 3 parts water. Bring the mixture to a boil until the sugar has dissolved. Pour the mixture into a jar and add the red onion. Let it cool in the fridge. The mixture keeps well in the fridge for a long time, so feel free to make a larger batch at a time."
+    ]
+  },
+  "12": {
+    "title": "High-Protein Flatbread Pizza",
+    "description": "Quick pizza on flatbread with chicken, quark, cherry tomatoes and cheese.",
+    "ingredients": [
+      {
+        "name": "Flatbread, wholegrain",
+        "unit": "pcs"
+      },
+      {
+        "name": "Low-fat quark",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Chicken fillet",
+        "unit": "g"
+      },
+      {
+        "name": "Cherry tomato",
+        "unit": "pcs"
+      },
+      {
+        "name": "Cheese",
+        "unit": "slices"
+      }
+    ],
+    "steps": [
+      "Place the flatbread on a rack lined with baking paper.",
+      "Mix the low-fat quark with paprika and chili seasoning and spread it over the bread like a pizza sauce.",
+      "Add the cheese and chicken and bake in the oven at 200 degrees until the cheese has melted and the bread has a nice golden color."
+    ]
+  },
+  "13": {
+    "title": "Trout with Pasta and Broccoli",
+    "description": "Oven-baked trout with wholegrain pasta, broccoli and low-fat quark.",
+    "ingredients": [
+      {
+        "name": "Pasta, wholegrain",
+        "unit": "dl"
+      },
+      {
+        "name": "Broccoli",
+        "unit": "florets"
+      },
+      {
+        "name": "Low-fat quark",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Trout",
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Place the trout fillet in an ovenproof dish and bake in the oven at 180 degrees for 15 minutes.",
+      "Boil the broccoli for 3-4 minutes.",
+      "Add the pasta to boiling water for 1 minute, or cook as directed on the package.",
+      "Season with salt and pepper, and serve it all with a little low-fat quark and a little lemon juice."
+    ]
+  },
+  "14": {
+    "title": "Nachos",
+    "description": "Nachos with ground beef, taco seasoning, beans and melted cheese.",
+    "ingredients": [
+      {
+        "name": "Tortilla chips, nacho chips",
+        "unit": "pcs"
+      },
+      {
+        "name": "Ground beef",
+        "unit": "g"
+      },
+      {
+        "name": "Brown beans, Eldorado",
+        "unit": "g"
+      },
+      {
+        "name": "Cheese, light 16% fat",
+        "unit": "slices"
+      }
+    ],
+    "steps": [
+      "Fry the ground beef with taco seasoning. Spread the nacho chips out over a sheet of baking paper and place the ground beef, beans and cheese on top. Bake at 200 degrees until the cheese is golden. Then feel free to top with tomatoes and other vegetables if you like."
+    ]
+  },
+  "15": {
+    "title": "Creamy cod skillet",
+    "description": "Creamy cod with bell pepper, red onion, spinach, parmesan and rice.",
+    "ingredients": [
+      {
+        "name": "Cod",
+        "unit": "g"
+      },
+      {
+        "name": "Light cooking cream",
+        "unit": "dl"
+      },
+      {
+        "name": "Bell pepper, red",
+        "unit": "pcs"
+      },
+      {
+        "name": "Red onion",
+        "unit": "pcs"
+      },
+      {
+        "name": "Spinach, raw",
+        "unit": "handful"
+      },
+      {
+        "name": "Rice",
+        "unit": "dl"
+      },
+      {
+        "name": "Parmesan cheese",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "unit": "clove"
+      },
+      {
+        "name": "Wheat flour",
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Season the cod. We recommend ready-made cajun seasoning or a homemade blend of cayenne pepper, pepper, salt, paprika, garlic powder, oregano and thyme. Fry the cod a couple of minutes on each side. Set the cod aside. In the same pan, sauté the sliced bell pepper, sliced red onion and chopped garlic. Whisk together the cooking cream, a little water and the wheat flour. Pour into the pan along with more of the spice blend and let it simmer until the mixture thickens. Stir in the spinach and parmesan. Place the cod on top and let it cook, covered, for 5 minutes. Serve with rice!"
+    ]
+  },
+  "16": {
+    "title": "Creamy trout skillet with potatoes",
+    "description": "Trout with vegetables, crème fraîche, soy sauce and potatoes.",
+    "ingredients": [
+      {
+        "name": "Trout",
+        "unit": "g"
+      },
+      {
+        "name": "Carrot",
+        "unit": "pcs"
+      },
+      {
+        "name": "Zucchini",
+        "unit": "dl"
+      },
+      {
+        "name": "Chili, red",
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "unit": "pcs"
+      },
+      {
+        "name": "Light crème fraîche 10%",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Soy sauce",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Spinach, raw",
+        "unit": "dl"
+      },
+      {
+        "name": "Medium potato",
+        "unit": "pcs"
+      }
+    ],
+    "steps": [
+      "Chop the vegetables and bring the potatoes to a boil.",
+      "Let them sauté in the pan for a few minutes before adding the light crème fraîche, lemon juice and soy sauce. Season to taste with, for example, salt and pepper.",
+      "Then place pieces of trout on top and let it simmer until the fish is cooked through."
+    ]
+  },
+  "17": {
+    "title": "Family-friendly taco gratin",
+    "description": "Taco gratin with ground chicken, lentils, cottage cheese and cheese.",
+    "ingredients": [
+      {
+        "name": "Grated white cheese, light 16% fat",
+        "unit": "dl"
+      },
+      {
+        "name": "Ground chicken",
+        "unit": "g"
+      },
+      {
+        "name": "Lentils, canned",
+        "unit": "dl"
+      },
+      {
+        "name": "Low-fat cottage cheese",
+        "unit": "dl"
+      },
+      {
+        "name": "Cream cheese, Philadelphia",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Corn",
+        "unit": "dl"
+      },
+      {
+        "name": "Salsa sauce",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Taco spice mix",
+        "unit": "tsp"
+      },
+      {
+        "name": "Garlic",
+        "unit": "clove"
+      }
+    ],
+    "steps": [
+      "Start by blending the cottage cheese and Philadelphia with an immersion blender. Spread it across a small ovenproof dish (24x12).",
+      "Fry the ground chicken with the pressed garlic and add the taco seasoning + 0.5 dl water. Then add the lentils, corn and taco sauce and let the mixture simmer for a few minutes.",
+      "Pour the meat mixture over the cheese mixture and top with grated cheese.",
+      "Bake at 225 degrees for 25-30 minutes."
+    ]
+  },
+  "18": {
+    "title": "Build-your-own dinner",
+    "description": "Choose your own protein source, carbohydrate and vegetables as you like. A flexible recipe template.",
+    "ingredients": [
+      {
+        "name": "Plenty of vegetables",
+        "unit": "g"
+      },
+      {
+        "name": "Sauce/dressing (30 calories)",
+        "unit": "serving"
+      },
+      {
+        "name": "Protein: Lean meat / white fish / lean seafood",
+        "unit": "g"
+      },
+      {
+        "name": "Carbohydrate (choose one): Rice (3/4 dl) / Falafel (10 pcs) / Couscous (5 tbsp) / Quinoa (5 tbsp) / Bulgur (5 tbsp) / Lentils (14 tbsp) / Pasta (2 dl) / Potato (3 medium) / Corn (3.5 dl) / Nuts (2 handfuls) / Avocado (2 dl) / Potato flatbread (4 pcs) / Whole grain bread (2 slices)",
+        "unit": "serving"
+      }
+    ],
+    "steps": [
+      "Choose your protein source, carbohydrate source and vegetables. Prepare them however you like."
+    ]
+  },
+  "19": {
+    "title": "Beef bourguignon with root vegetables",
+    "description": "Classic beef bourguignon with beef, root vegetables, mushrooms and stock.",
+    "ingredients": [
+      {
+        "name": "Beef, chuck",
+        "unit": "g"
+      },
+      {
+        "name": "Onion",
+        "unit": "pcs"
+      },
+      {
+        "name": "Carrot",
+        "unit": "medium"
+      },
+      {
+        "name": "Potato",
+        "unit": "medium"
+      },
+      {
+        "name": "Garlic",
+        "unit": "clove"
+      },
+      {
+        "name": "Bay leaf, dried",
+        "unit": "pcs"
+      },
+      {
+        "name": "Mushroom, raw",
+        "unit": "pcs"
+      },
+      {
+        "name": "Swede, rutabaga",
+        "unit": "pcs"
+      },
+      {
+        "name": "Beef stock, Jacobs",
+        "unit": "dl"
+      },
+      {
+        "name": "Thyme",
+        "unit": "a little"
+      },
+      {
+        "name": "Wheat flour",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Tomato paste",
+        "unit": "tsp"
+      },
+      {
+        "name": "Salt",
+        "unit": "desired amount"
+      },
+      {
+        "name": "Pepper, black",
+        "unit": "desired amount"
+      },
+      {
+        "name": "Olive oil",
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cut the potatoes, carrots and mushrooms. Dice the swede and the meat. Finely chop the onion and garlic. Add a little oil to a cast iron pot (if you have one) and sauté the onion and garlic until soft. Coat the meat with the wheat flour and add it to the pot. Brown the meat and stir in the tomato paste. Pour in the stock and let it simmer for about an hour. Add the vegetables and let the pot cook for a further 20 minutes or so. Season to taste with salt and pepper.",
+      "If you like, you can spend a few free calories on some bread to serve on the side."
+    ]
+  },
+  "20": {
+    "title": "Hot honey bowl",
+    "description": "Bowl with ground beef, sweet potato, cottage cheese, avocado and hot honey sauce.",
+    "ingredients": [
+      {
+        "name": "Ground beef",
+        "unit": "g"
+      },
+      {
+        "name": "Taco spice mix",
+        "unit": "tsp"
+      },
+      {
+        "name": "Sweet potato",
+        "unit": "pcs"
+      },
+      {
+        "name": "Low-fat cottage cheese",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Honey",
+        "unit": "tsp"
+      },
+      {
+        "name": "Chili seasoning",
+        "unit": "tsp"
+      },
+      {
+        "name": "Chili sauce",
+        "unit": "tsp"
+      },
+      {
+        "name": "Vinegar, 7%",
+        "unit": "tsp"
+      },
+      {
+        "name": "Avocado",
+        "unit": "dl"
+      }
+    ],
+    "steps": [
+      "Make the sauce by heating the honey and chili flakes/seasoning (it should not boil).",
+      "Add chili sauce (sriracha or tabasco) and vinegar to the mixture and let it sit for 15 minutes.",
+      "Cut the sweet potato into pieces, season with salt and pepper and roast at 200 degrees for about 20 minutes.",
+      "Fry the ground beef and add the taco seasoning.",
+      "Put the ground beef, sweet potato, low-fat cottage cheese and avocado in a bowl and top with the hot honey sauce."
+    ]
+  },
+  "21": {
+    "title": "White chicken curry with noodles",
+    "description": "Creamy chicken curry with coconut milk, curry paste and egg noodles.",
+    "ingredients": [
+      {
+        "name": "Chicken fillet",
+        "unit": "g"
+      },
+      {
+        "name": "Coconut milk",
+        "unit": "dl"
+      },
+      {
+        "name": "Garlic, finely chopped",
+        "unit": "tsp"
+      },
+      {
+        "name": "Curry paste",
+        "unit": "tsp"
+      },
+      {
+        "name": "Noodles, with egg",
+        "unit": "g"
+      },
+      {
+        "name": "Ginger root",
+        "unit": "tsp"
+      },
+      {
+        "name": "Carrot",
+        "unit": "pcs"
+      }
+    ],
+    "steps": [
+      "Fry the chicken fillet with salt, pepper and a little soy sauce. Add 1 tsp red curry paste or seasoning, 1 tsp grated ginger (skin on is fine), 1 tsp lime juice, 1 tsp lemongrass (fresh or paste), 1 tsp finely chopped garlic, and dried or fresh mushrooms (optional). Once these have cooked into the chicken, add the coconut milk and water to reach the right consistency.",
+      "Then add the noodles and let it simmer until the noodles are soft.",
+      "Top with grated carrot and cilantro."
+    ]
+  },
+  "22": {
+    "title": "Chicken Bowl",
+    "description": "Colorful bowl with chicken, mango, carrot, cucumber, cabbage, rice and chili dressing.",
+    "ingredients": [
+      {
+        "name": "Chicken fillet",
+        "unit": "g"
+      },
+      {
+        "name": "Carrot",
+        "unit": "pcs"
+      },
+      {
+        "name": "Mango",
+        "unit": "dl"
+      },
+      {
+        "name": "Cucumber",
+        "unit": "dl"
+      },
+      {
+        "name": "Cabbage",
+        "unit": "dl"
+      },
+      {
+        "name": "Chili sauce",
+        "unit": "tsp"
+      },
+      {
+        "name": "Rice",
+        "unit": "dl"
+      },
+      {
+        "name": "Low-fat quark",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Red bell pepper",
+        "unit": "dl"
+      }
+    ],
+    "steps": [
+      "Chop the carrot, cabbage, cucumber, bell pepper and mango.",
+      "Fry the chicken and season it (e.g. with salt, cayenne pepper and paprika), cook the rice, then combine everything in a bowl.",
+      "Make the dressing by mixing the chili sauce and quark, and top the chicken bowl with the dressing."
+    ]
+  },
+  "23": {
+    "title": "Chicken Bowl with Sweet Potato and Edamame",
+    "description": "Bowl with chicken, sweet potato, edamame, chickpeas, red onion and sriracha mayo.",
+    "ingredients": [
+      {
+        "name": "Edamame beans",
+        "unit": "g"
+      },
+      {
+        "name": "Sweet potato",
+        "unit": "pcs"
+      },
+      {
+        "name": "Red onion",
+        "unit": "pcs"
+      },
+      {
+        "name": "Sriracha mayo sauce",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Chickpeas",
+        "unit": "dl"
+      },
+      {
+        "name": "Lime",
+        "unit": "pcs"
+      },
+      {
+        "name": "Chicken fillet",
+        "unit": "g"
+      },
+      {
+        "name": "Romaine lettuce",
+        "unit": "desired amount"
+      },
+      {
+        "name": "Cilantro",
+        "unit": "desired amount"
+      }
+    ],
+    "steps": [
+      "Fry the chicken until crisp in a little oil. Season with chili seasoning.",
+      "Cut the sweet potato into small cubes and place it on a sheet of baking paper along with the chickpeas. Season with salt and pepper. Preheat the oven to 210 degrees. Roast the sweet potato and chickpeas in the oven for about 15-20 minutes. Feel free to make a little extra to have for several days.",
+      "Chop the red onion and lettuce, and cut the lime in half.",
+      "Arrange the vegetables, chicken and the warm vegetables from the oven in a bowl. Squeeze a little lime over the top and add some chili mayo. Serve with fresh cilantro."
+    ]
+  },
+  "24": {
+    "title": "Potato Flatbread Lasagne",
+    "description": "Lasagne made with spelt potato flatbread instead of pasta sheets, with ground meat and cheese.",
+    "ingredients": [
+      {
+        "name": "Ground beef patty mix",
+        "unit": "g"
+      },
+      {
+        "name": "Chopped tomatoes, carton",
+        "unit": "pack"
+      },
+      {
+        "name": "Spelt potato flatbread",
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "unit": "pcs"
+      },
+      {
+        "name": "Tomato",
+        "unit": "pcs"
+      },
+      {
+        "name": "White cheese, light 16% fat",
+        "unit": "slices"
+      },
+      {
+        "name": "Cucumber",
+        "unit": "dl"
+      },
+      {
+        "name": "Leaf lettuce",
+        "unit": "large leaves"
+      }
+    ],
+    "steps": [
+      "Preheat the oven to 225 degrees.",
+      "Sauté the finely chopped onion and then the ground meat.",
+      "Add the chopped tomatoes.",
+      "Season to taste.",
+      "Layer the spelt potato flatbread and the meat mixture in a small ovenproof dish.",
+      "Top with cheese and bake for 10 minutes until the cheese is golden.",
+      "Serve the potato flatbread lasagne with cucumber and salad."
+    ]
+  },
+  "25": {
+    "title": "Pasta Bolognese",
+    "description": "Classic pasta bolognese with cottage cheese for extra protein.",
+    "ingredients": [
+      {
+        "name": "Ground beef patty mix",
+        "unit": "g"
+      },
+      {
+        "name": "Onion",
+        "unit": "pcs"
+      },
+      {
+        "name": "Carrot",
+        "unit": "pcs"
+      },
+      {
+        "name": "Chopped tomatoes, carton",
+        "unit": "dl"
+      },
+      {
+        "name": "Tomato puree",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Low-fat cottage cheese",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Basil",
+        "unit": "small handful"
+      },
+      {
+        "name": "Pasta, whole grain",
+        "unit": "dl"
+      }
+    ],
+    "steps": [
+      "Fry the ground meat and set it aside when done. Sauté the onion and carrots together. Add the chopped tomatoes, tomato puree (fresh basil if you like) and low-fat cottage cheese. Blend this with an immersion blender for a smoother consistency. Add your desired seasonings (onion powder, pasta seasoning, salt and pepper all work well with this dish), and feel free to add a little sugar-free ketchup if you wish. Then pour the sauce over the ground meat. If you want a chunkier sauce, skip the blending and instead add everything directly once the ground meat, onion and carrot are cooked.",
+      "Cook the pasta (whole grain recommended) according to the package instructions."
+    ]
+  },
+  "26": {
+    "title": "Spicy Fish Stew",
+    "description": "Spicy fish stew with cod, coconut milk, vegetables and rice.",
+    "ingredients": [
+      {
+        "name": "Cod",
+        "unit": "g"
+      },
+      {
+        "name": "Carrot",
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "unit": "pcs"
+      },
+      {
+        "name": "Red bell pepper",
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic",
+        "unit": "clove"
+      },
+      {
+        "name": "Sugar snap peas",
+        "unit": "pcs"
+      },
+      {
+        "name": "Chopped tomatoes, carton",
+        "unit": "pack"
+      },
+      {
+        "name": "Light coconut milk",
+        "unit": "dl"
+      },
+      {
+        "name": "Rice",
+        "unit": "dl"
+      },
+      {
+        "name": "Red chili",
+        "unit": "pcs"
+      }
+    ],
+    "steps": [
+      "Chop the onion and garlic and sauté in the pan.",
+      "Add the coconut milk and chopped tomatoes and bring to a boil.",
+      "Then add the vegetables and let it simmer a little before finally adding the cod.",
+      "Let it simmer/poach for about 10-15 minutes, and season to taste with spices (e.g. salt, pepper, turmeric) and chili.",
+      "Serve with rice."
+    ]
+  },
+  "27": {
+    "title": "Super Easy Chicken Stew with Tasty Salad",
+    "description": "Quick chicken stew with cream cheese, ketchup and milk, served with a fresh salad.",
+    "ingredients": [
+      {
+        "name": "Chicken fillet",
+        "unit": "g"
+      },
+      {
+        "name": "Philadelphia light cream cheese",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Avocado",
+        "unit": "pcs"
+      },
+      {
+        "name": "Feta cheese",
+        "unit": "dl"
+      },
+      {
+        "name": "Low-fat milk, 0.7% fat, organic",
+        "unit": "dl"
+      },
+      {
+        "name": "Sugar-free ketchup",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Whole grain bread",
+        "unit": "slice"
+      }
+    ],
+    "steps": [
+      "Fry the chicken with salt and pepper. Season to taste with ginger (fresh, ground or paste), garlic seasoning, smoked paprika, chili and basil.",
+      "Add the Philadelphia light, milk and ketchup/tomato puree. Bring to a boil until you get a delicious sauce.",
+      "Stir in 1 handful of spinach and sliced bell pepper after you have turned off the heat.",
+      "Make a salad of finely chopped cucumber, tomato, lemon juice, feta cheese, avocado, green salad and fresh cilantro (optional). Eat with your choice of carbohydrate, for example toasted bread, rice, potato or similar."
+    ]
+  },
+  "28": {
+    "title": "Cod and Lentil Stew with Sweet Potato",
+    "description": "Stew with cod, lentils, sweet potato, coconut milk and flatbread.",
+    "ingredients": [
+      {
+        "name": "Coconut milk",
+        "unit": "dl"
+      },
+      {
+        "name": "Lentils, green and brown, cooked",
+        "unit": "g"
+      },
+      {
+        "name": "Carrot",
+        "unit": "medium"
+      },
+      {
+        "name": "Sweet potato",
+        "unit": "pcs"
+      },
+      {
+        "name": "Cod",
+        "unit": "g"
+      },
+      {
+        "name": "Onion",
+        "unit": "pcs"
+      },
+      {
+        "name": "Flatbread, oat, store-bought",
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "Roast the carrot and sweet potato in the oven with salt and pepper until cooked through. Sauté the onion (e.g. shallots) in a frying pan and pour over the coconut milk. Add 1 tsp ginger, 1 tsp garam masala and 1 tsp paprika, along with a bouillon cube/powder in water. Feel free to use more carrot and onion if you like. Adjust the water to how thick you want the stew. Rinse the lentils and add them. Place the cod in the stew and cover with a lid while it simmers until the fish is cooked through. Stir in the potato and carrot and serve with green salad and 30 g of your choice of bread, for example flatbread."
+    ]
+  },
+  "29": {
+    "title": "Tortelloni Salad with Sun-Dried Tomatoes, Chicken and Feta",
+    "description": "Pasta salad with tortelloni, chicken, feta cheese, sun-dried tomatoes and fresh vegetables.",
+    "ingredients": [
+      {
+        "name": "Feta cheese",
+        "unit": "g"
+      },
+      {
+        "name": "Chicken fillet",
+        "unit": "g"
+      },
+      {
+        "name": "Sun-dried tomatoes",
+        "unit": "g"
+      },
+      {
+        "name": "Leaf lettuce",
+        "unit": "handful"
+      },
+      {
+        "name": "Cherry tomato",
+        "unit": "pcs"
+      },
+      {
+        "name": "Red onion",
+        "unit": "pcs"
+      },
+      {
+        "name": "Cucumber",
+        "unit": "slices"
+      },
+      {
+        "name": "Fresh plain pasta",
+        "unit": "dl"
+      }
+    ],
+    "steps": [
+      "Chop up your choice of vegetables. We recommend leaf lettuce, red onion, cucumber and cherry tomatoes. Also cut the sun-dried tomatoes into small pieces.",
+      "Cook the chicken, or use pre-cooked chicken.",
+      "Cook the tortelloni or other fresh pasta according to the package instructions.",
+      "Combine the vegetables, sun-dried tomatoes, chicken and tortellini. Top with feta cheese."
+    ]
+  },
+  "30": {
+    "title": "Tuna Pasta with Shallots and Parsley",
+    "description": "Flavorful pasta with tuna, anchovies, tomato paste and chili sauce.",
+    "ingredients": [
+      {
+        "name": "Shallot",
+        "unit": "pcs"
+      },
+      {
+        "name": "Pasta",
+        "unit": "dl"
+      },
+      {
+        "name": "Tuna in water",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Canned anchovies",
+        "unit": "pcs"
+      },
+      {
+        "name": "Tomato paste",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Chili sauce",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Parsley",
+        "unit": "handful"
+      }
+    ],
+    "steps": [
+      "Roughly chop the shallots and sauté over medium heat until the onion turns soft and golden.",
+      "Add the chili sauce (e.g. sambal oelek), tomato paste and anchovies. Let it simmer together for 5 minutes.",
+      "Cook the pasta according to the package instructions.",
+      "Rinse the tuna well and add it to the pan. Add a few spoonfuls of pasta water to the mixture.",
+      "Drain the pasta and stir it into the tuna sauce.",
+      "Let it cool slightly and top with plenty of fresh curly parsley before serving!"
+    ]
+  },
+  "31": {
+    "title": "Quark and Cottage Cheese with Berries",
+    "description": "Simple breakfast/snack with cottage cheese, quark/yogurt and fresh berries.",
+    "ingredients": [
+      {
+        "name": "Low-fat cottage cheese",
+        "unit": "dl"
+      },
+      {
+        "name": "Berries",
+        "unit": "dl"
+      },
+      {
+        "name": "Low-fat vanilla quark / low-fat quark",
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Mix together the cottage cheese and the yogurt, and top with fresh berries."
+    ]
+  },
+  "32": {
+    "title": "Chicken Salad",
+    "description": "Light chicken salad with pasta and fresh vegetables.",
+    "ingredients": [
+      {
+        "name": "Chicken fillet",
+        "unit": "g"
+      },
+      {
+        "name": "Pasta",
+        "unit": "dl"
+      }
+    ],
+    "steps": [
+      "Chop up lettuce, cucumber, cherry tomato, bell pepper (and/or other vegetables).",
+      "Fry a chicken fillet and shred it using two forks for a pulled-chicken effect.",
+      "Cook the pasta.",
+      "Combine everything in a bowl and enjoy."
+    ]
+  },
+  "33": {
+    "title": "Pita Bread with Chicken and Homemade Tzatziki",
+    "description": "Pita bread filled with chicken, tzatziki, lettuce and vegetables.",
+    "ingredients": [
+      {
+        "name": "Iceberg lettuce",
+        "unit": "leaves"
+      },
+      {
+        "name": "Cherry tomato",
+        "unit": "pcs"
+      },
+      {
+        "name": "Pita bread, whole grain",
+        "unit": "pcs"
+      },
+      {
+        "name": "Chicken fillet",
+        "unit": "g"
+      },
+      {
+        "name": "Greek yogurt",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cucumber",
+        "unit": "desired amount"
+      },
+      {
+        "name": "Salt",
+        "unit": "desired amount"
+      },
+      {
+        "name": "Black pepper",
+        "unit": "desired amount"
+      },
+      {
+        "name": "Lemon",
+        "unit": "desired amount"
+      },
+      {
+        "name": "Corn",
+        "unit": "dl"
+      },
+      {
+        "name": "Avocado",
+        "unit": "dl"
+      }
+    ],
+    "steps": [
+      "Cut the chicken into thin strips. Fry the chicken with the seasoning of your choice.",
+      "Grate the desired amount of cucumber and squeeze out as much of the water as you can.",
+      "Mix the grated cucumber with Greek yogurt and a little lemon juice. Season with salt, pepper and garlic powder if desired.",
+      "Spread a stripe of tzatziki on the pita bread. Layer on the vegetables you want (we recommend lettuce and tomato) plus corn and avocado. Place the chicken on top and fold the pita bread together."
+    ]
+  },
+  "34": {
+    "title": "Potato Flatbread Pizza with Chicken Fillet",
+    "description": "Quick pizza on potato flatbreads with chicken, cheese, vegetables and pizza sauce.",
+    "ingredients": [
+      {
+        "name": "Chicken fillet",
+        "unit": "g"
+      },
+      {
+        "name": "Potato flatbread",
+        "unit": "pcs"
+      },
+      {
+        "name": "Cheese",
+        "unit": "slices"
+      },
+      {
+        "name": "Plenty of vegetables",
+        "unit": "g"
+      },
+      {
+        "name": "Salsa / Tomato paste",
+        "unit": "dl / 2 tbsp"
+      }
+    ],
+    "steps": [
+      "Preheat the oven to 190-220 degrees. Fry the chicken fillet in cubes. Spread the pizza sauce over the potato flatbreads. Sprinkle over the chicken fillet, grated cheese and vegetables, and bake on a rack lined with parchment paper in the oven for 5-8 minutes. If you're using arugula, add it at the very end, after baking."
+    ]
+  },
+  "35": {
+    "title": "Chicken Sandwich with Avocado",
+    "description": "Simple sandwich with fried chicken, avocado and fresh vegetables.",
+    "ingredients": [
+      {
+        "name": "Whole grain bread",
+        "unit": "slices"
+      },
+      {
+        "name": "Chicken fillet",
+        "unit": "g"
+      },
+      {
+        "name": "Avocado",
+        "unit": "dl"
+      }
+    ],
+    "steps": [
+      "Fry the chicken fillet in a pan and season to taste (we recommend chili explosion, salt and pepper). Toast the bread slices in a toaster. Mash the avocado with a fork and spread it on one slice, ideally with a little added lime juice. Add the chicken fillet along with lettuce leaves and assorted greens, and top with the other slice."
+    ]
+  },
+  "36": {
+    "title": "Chicken, Rice and Honey",
+    "description": "A simple dish with chicken, rice and honey.",
+    "ingredients": [
+      {
+        "name": "Chicken fillet",
+        "unit": "g"
+      },
+      {
+        "name": "Rice",
+        "unit": "dl"
+      },
+      {
+        "name": "Honey",
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Fry the chicken with your seasoning of choice.",
+      "Boil the rice with salt.",
+      "Top with honey before eating.",
+      "Feel free to add vegetables if you like."
+    ]
+  },
+  "37": {
+    "title": "Moussaka",
+    "description": "Greek-inspired moussaka with ground beef, apple and cheese sauce.",
+    "ingredients": [
+      {
+        "name": "Ground beef",
+        "unit": "g"
+      },
+      {
+        "name": "Cheese, light 16% fat",
+        "unit": "slices"
+      },
+      {
+        "name": "Cottage cheese",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Low-fat quark (kesam)",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Egg",
+        "unit": "pcs"
+      },
+      {
+        "name": "Onion",
+        "unit": "pcs"
+      },
+      {
+        "name": "Chopped tomatoes, carton",
+        "unit": "dl"
+      },
+      {
+        "name": "Apple",
+        "unit": "pcs"
+      }
+    ],
+    "steps": [
+      "Preheat the oven to 220 degrees.",
+      "Chop the onion into small pieces and fry for a couple of minutes.",
+      "Add the ground beef and seasoning (1 tbsp herbes de Provence/pizza seasoning).",
+      "Once the meat is cooked through, pour in the chopped tomatoes and let the meat sauce simmer while you make the cheese sauce.",
+      "Put the cottage cheese, quark, 15 g grated cheese, nutmeg and egg into an immersion blender or blender. Blend until completely smooth.",
+      "Spread the meat sauce in an ovenproof dish. Top with the cheese sauce and 24 g grated cheese. Bake until the cheese has melted.",
+      "Eat an apple for \"dessert.\""
+    ]
+  },
+  "38": {
+    "title": "Grilled Cheese Sandwich or Potato Flatbread/Crispbread with Cheese + Extra Protein Source",
+    "description": "A simple sandwich with lean cold cuts, cheese and an optional protein source.",
+    "ingredients": [
+      {
+        "name": "Lean cold cuts",
+        "unit": "slices"
+      },
+      {
+        "name": "Cheese",
+        "unit": "slices"
+      },
+      {
+        "name": "Wholegrain bread / Wasa Sport crispbread / potato flatbread",
+        "unit": "slice / 2.5 pcs / 2 pcs"
+      },
+      {
+        "name": "Skyr / low-fat cottage cheese / protein powder",
+        "unit": "can / 8 tbsp / 1 scoop"
+      }
+    ],
+    "steps": [
+      "If you like, heat briefly in the microwave or oven until the cheese melts. Add ketchup and/or mustard if you want.",
+      "Garnish with a little greenery if you like."
+    ]
+  },
+  "39": {
+    "title": "Spicy Chicken Pasta",
+    "description": "Creamy pasta with chicken, mozzarella, sun-dried tomatoes and spinach.",
+    "ingredients": [
+      {
+        "name": "Chicken fillet",
+        "unit": "g"
+      },
+      {
+        "name": "Mozzarella, light",
+        "unit": "g"
+      },
+      {
+        "name": "Pasta",
+        "unit": "dl"
+      },
+      {
+        "name": "Light cooking cream",
+        "unit": "dl"
+      }
+    ],
+    "steps": [
+      "Cut the tomatoes into pieces and fry them quickly in the pan before adding the sliced chicken.",
+      "Put the pasta on to boil.",
+      "Once the chicken is cooked through, pour in the cream and seasoning, then add the cheese.",
+      "Fold in the cooked pasta and add a handful of spinach (if desired) and/or top with finely chopped parsley."
+    ]
+  },
+  "40": {
+    "title": "Yogurt Bowl with Apple and Cinnamon",
+    "description": "A breakfast bowl with cottage cheese, Greek yogurt, oats, apple, cinnamon and honey.",
+    "ingredients": [
+      {
+        "name": "Low-fat cottage cheese",
+        "unit": "dl"
+      },
+      {
+        "name": "Oats",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Apple",
+        "unit": "pcs"
+      },
+      {
+        "name": "Sukrin Gold",
+        "unit": "desired amount"
+      },
+      {
+        "name": "Cinnamon",
+        "unit": "desired amount"
+      },
+      {
+        "name": "Honey",
+        "unit": "strips"
+      },
+      {
+        "name": "Greek yogurt",
+        "unit": "dl"
+      }
+    ],
+    "steps": [
+      "Grab a bowl and add the Greek yogurt and low-fat cottage cheese. Cut half an apple into pieces and arrange in the bowl as you like. Sprinkle over the oats, cinnamon and Sukrin Gold. Finally, squeeze a few strips of honey over everything. I recommend using acacia honey. If you don't like cinnamon, honey or Sukrin Gold, you can leave them out.",
+      "TIP: you can caramelize the apple pieces in the frying pan with Sukrin Gold. Fry them together and add to the yogurt bowl once the Sukrin Gold has melted onto the apples."
+    ]
+  },
+  "41": {
+    "title": "Protein Pizza",
+    "description": "Homemade pizza with a protein-rich base of egg, egg white, oats and Pofiber.",
+    "ingredients": [
+      {
+        "name": "Egg",
+        "unit": "pcs"
+      },
+      {
+        "name": "Egg white",
+        "unit": "pcs"
+      },
+      {
+        "name": "Oat flour",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Fiberfin",
+        "unit": "tsp"
+      },
+      {
+        "name": "Pofiber",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Tomato",
+        "unit": "pcs"
+      },
+      {
+        "name": "Plenty of vegetables",
+        "unit": "g"
+      },
+      {
+        "name": "Lean cold cuts",
+        "unit": "slices"
+      },
+      {
+        "name": "Cheese, light 16% fat",
+        "unit": "slices"
+      }
+    ],
+    "steps": [
+      "Pofiber can be bought at health food stores, is naturally gluten-free, and makes the batter swell more so it's more filling. But if you don't want to use it, you can replace it with oat flour.",
+      "Whisk the egg whites until foamy. Mix the egg, Pofiber, oat flour and Fiberfin into a dough and add a little water. Fold the dough into the egg whites and spread the batter out over a sheet of baking paper. Bake in the oven at 200 degrees for about 20 minutes. Take out the base and add the toppings. Bake again until the cheese has melted.",
+      "Season the dough with a little salt, garlic powder and oregano."
+    ]
+  },
+  "42": {
+    "title": "Easy Chicken Wrap",
+    "description": "A quick wrap with chicken, sour cream, cheese and fresh vegetables.",
+    "ingredients": [
+      {
+        "name": "Chicken fillet",
+        "unit": "g"
+      },
+      {
+        "name": "Tortilla, corn wrap",
+        "unit": "pcs"
+      },
+      {
+        "name": "Q Drømmelett 5%",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Lettuce",
+        "unit": "desired amount"
+      },
+      {
+        "name": "Red bell pepper",
+        "unit": "desired amount"
+      },
+      {
+        "name": "Cucumber",
+        "unit": "desired amount"
+      },
+      {
+        "name": "Cheese",
+        "unit": "slices"
+      }
+    ],
+    "steps": [
+      "Fry the chicken fillet and cut into strips. Place the tortilla, Drømmelett, cheese, vegetables and chicken in the wrap. Fold up and serve."
+    ]
+  }
+}
