@@ -1,0 +1,8 @@
+# Dependencies allowed to run install/build scripts (pnpm v11+ `allowBuilds`).
+# Replaces the v10 `onlyBuiltDependencies` setting.
+allowBuilds:
+  '@prisma/engines': true
+  esbuild: true
+  lefthook: true
+  prisma: true
+  sharp: true
