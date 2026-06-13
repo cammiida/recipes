@@ -6,3 +6,12 @@ allowBuilds:
   lefthook: true
   prisma: true
   sharp: true
+
+# Refuse to install package versions published less than 7 days ago.
+minimumReleaseAge: 10080 # 7 days in minutes
+
+# tsx asks for esbuild ~0.28.0, which resolves to 0.28.1 (published <7 days
+# ago) and trips minimumReleaseAge. Pin esbuild to 0.28.0 — the newest
+# release >7 days old that still satisfies tsx (~0.28.0) and vite (^0.27.0).
+overrides:
+  esbuild: 0.28.0
