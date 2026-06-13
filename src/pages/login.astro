@@ -1,8 +1,22 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import LoginForm from "../components/LoginForm";
+import { auth } from "../lib/auth";
 
 export const prerender = false;
+
+let session;
+try {
+  session = await auth.api.getSession({
+    headers: Astro.request.headers,
+  });
+} catch {
+  // getSession throws if no valid session exists
+}
+
+if (session) {
+  return Astro.redirect("/admin");
+}
 ---
 
 <Layout title="Logg inn">
